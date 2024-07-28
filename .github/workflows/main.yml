@@ -45,6 +45,6 @@ jobs:
         run: |
           git config --local user.name "somugnanasekar"
           git config --local user.email "somugnanasekaran@gmail.com"
-          git add index.html
+          git add somugnanasekar/demo-repo/testing.html
           git commit -m "Update version to $NEW_VERSION"
           git push origin main
