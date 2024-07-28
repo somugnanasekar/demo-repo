@@ -47,4 +47,4 @@ jobs:
           git config --local user.email "somugnanasekaran@gmail.com"
           git add testing.html
           git commit -m "Update version to $NEW_VERSION"
-          
+          git push origin HEAD:main
